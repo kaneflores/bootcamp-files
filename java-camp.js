@@ -25,3 +25,13 @@ WRONGS: some Number isnt someNumber, constant variable is unable to change, synt
 const some Number = 20;
 
 someNumber = 50
+
+/*challenge 3
+result data type is a string
+*/
+
+const variable1 = 20;
+const variable2 = '40';
+
+const resultVariable = variable1 + variable2;
+console.log(resultVariable);
