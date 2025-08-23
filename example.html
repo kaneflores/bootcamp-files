@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+    form {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+    }
+    button {
+      padding: 8px 16px;
+    }
+  </style>
+</head>
+<body>
+  <form action="/login" method="post">
+    <h2>Login</h2>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+    
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
