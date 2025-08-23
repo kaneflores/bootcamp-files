@@ -57,3 +57,11 @@ invalid code because out of bounds access
 const myarray = [20,30,40];
 
 console.log(myarray[2])
+
+//JAVASCRIPT OPERATORS
+const a = 20;
+let b = 20;
+
+//dont use  var no point
+// no difference between ' or ""
+
