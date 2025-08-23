@@ -48,3 +48,12 @@ const objectVariable = {
 };
 
 console.log(objectVariable.prop3[2])
+
+/*
+challenge 5:
+invalid code because out of bounds access
+*/
+
+const myarray = [20,30,40];
+
+console.log(myarray[2])
