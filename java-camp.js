@@ -16,3 +16,12 @@ console.log(myObject);
 console.log(myObject.sumProp);
 
 console.log(myObject.firstProp[1]);
+
+//challenge 2
+/*
+WRONGS: some Number isnt someNumber, constant variable is unable to change, syntax erroro
+*/
+
+const some Number = 20;
+
+someNumber = 50
