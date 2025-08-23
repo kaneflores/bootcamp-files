@@ -67,3 +67,5 @@ let b = 20;
 
 let startingnumber = 0;
 startingnumber++;
+
+const result = 20 ===20 ? 'values match' : 'values dont match'
