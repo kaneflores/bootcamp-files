@@ -65,3 +65,5 @@ let b = 20;
 //dont use  var no point
 // no difference between ' or ""
 
+let startingnumber = 0;
+startingnumber++;
