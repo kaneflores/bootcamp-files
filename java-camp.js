@@ -35,3 +35,16 @@ const variable2 = '40';
 
 const resultVariable = variable1 + variable2;
 console.log(resultVariable);
+
+/*
+challenge 4:
+invalid code because improper syntax
+*/
+
+const objectVariable = {
+    prop1: 'I am property 1',
+    prop2: 'I am prop2',
+    prop3: [20,30,40]
+};
+
+console.log(objectVariable.prop3[2])
