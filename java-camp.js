@@ -69,3 +69,10 @@ let startingnumber = 0;
 startingnumber++;
 
 const result = 20 ===20 ? 'values match' : 'values dont match'
+
+const arr = ['adkfjafd', 10, 20, '30', 'akdjfkldg']
+for (let i =0; i < arr.length; i++){
+    if (typeof arr[i] === 'number'){
+        console.log(arr[i]);
+    }
+}
