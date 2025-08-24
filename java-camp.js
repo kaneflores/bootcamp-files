@@ -99,3 +99,7 @@ const myFunction = () => {
     return mynumber;
     mynumber = 50; // will never reach
 }
+
+function solution(str){
+  return str.split("").reverse().join("")
+}
