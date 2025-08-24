@@ -76,3 +76,26 @@ for (let i =0; i < arr.length; i++){
         console.log(arr[i]);
     }
 }
+
+//arrow function
+const arrowFunction = () => {
+    console.log('i am an arrow func');
+
+}
+/*
+arrow funciton syntatx
+
+() => {
+    }
+
+* */
+
+function sample (){
+
+}
+
+const myFunction = () => {
+    let mynumber = 20;
+    return mynumber;
+    mynumber = 50; // will never reach
+}
