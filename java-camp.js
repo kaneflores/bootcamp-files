@@ -217,3 +217,8 @@ function callbackfunc(arrItem){
         return false;
     }else{return true};
 }
+function filter_list(l){
+    let result = []
+    nu
+}
+function arrayDif()
