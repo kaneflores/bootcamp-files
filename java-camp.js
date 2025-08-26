@@ -205,3 +205,7 @@ try{
     console.log(error instanceof TypeError)
     console.log(error.message);
 }
+//NaN, not a number; null; undefined;
+
+let myvar; // error shows up as undefined
+
