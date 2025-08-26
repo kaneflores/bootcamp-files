@@ -133,3 +133,5 @@ const rps = (p1, p2) => {
   
   return rules[p1] === p2 ? "Player 1 won!" : "Player 2 won!";
 };
+
+const newdate = new Date();
