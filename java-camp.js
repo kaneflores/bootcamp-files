@@ -209,3 +209,11 @@ try{
 
 let myvar; // error shows up as undefined
 
+function filter_list(l){
+ return numArr.filter(callbackfunc)      
+}
+function callbackfunc(arrItem){
+    if (typeof arrItem !== 'number'|| arritem<0){
+        return false;
+    }else{return true};
+}
