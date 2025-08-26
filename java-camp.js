@@ -155,3 +155,15 @@ arr.forEach((arrItem, index) =>{
     console.log(index);
 })
 
+const arr = [1,2,3,4];
+let sum = 0;
+for (let i = ; i < arr.length; i++){
+    sum+=arr[i];
+}
+console.log(sum);
+
+function reducerCallback(sum, arrItem){
+    return sum += arrItem;
+}
+
+const result = arr.reduce(reducerCallback, 0); 
