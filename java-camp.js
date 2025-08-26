@@ -165,5 +165,8 @@ console.log(sum);
 function reducerCallback(sum, arrItem){
     return sum += arrItem;
 }
+arr.reduce((sum, arrItem ) => sum += arrItem, 0) // arr.length
 
 const result = arr.reduce(reducerCallback, 0); 
+arr.reduce((sum,arrItem) => sum += arrItem, 0
+) / arr.length
