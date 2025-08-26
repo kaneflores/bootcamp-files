@@ -135,3 +135,8 @@ const rps = (p1, p2) => {
 };
 
 const newdate = new Date();
+const regex = new RegExp('FavoriteE');
+
+const string1 = 'my favorite food is steak';
+const  regex = 'hello word, 2021 @ more of a string at the end';
+/[a-z ]+,[0-9]+@[a-z ]/.exec(str);
