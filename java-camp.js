@@ -144,3 +144,14 @@ const mystring = 'blah bal';
 
 const mnewstring = mystring.replaceAll('Dog', 'cat');
 
+const arr = [1,2,3];
+
+for(let i = 0; i< arr.length; i++){
+    console.log(arr[i]);
+}
+
+arr.forEach((arrItem, index) =>{
+    console.log(arrItem);
+    console.log(index);
+})
+
