@@ -182,3 +182,20 @@ const randomarr = ['1',2,3,4,5,6,6];
 
 const randomInex = Math.floor(Math.random()*arr.length)
 arr[randomIndex]
+
+//error types
+const someVariable = 20;
+someVariable
+anotherVariable // reference error, never defined in scope
+
+const myObj = {
+    prop1: 'some value';
+    prop2
+}// syntax error
+
+//type error
+const obj1 = { prop1: 20};
+const obj2 = {prop2: 50};
+objt1 + obj2 = //type error
+//cant be possible
+
