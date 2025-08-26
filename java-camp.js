@@ -170,3 +170,15 @@ arr.reduce((sum, arrItem ) => sum += arrItem, 0) // arr.length
 const result = arr.reduce(reducerCallback, 0); 
 arr.reduce((sum,arrItem) => sum += arrItem, 0
 ) / arr.length
+
+const mydate = new Date();
+mydate.getDate()
+
+// math library is static methods
+
+Math.PI, Math.E, Math.abs()
+Math.ceil()
+const randomarr = ['1',2,3,4,5,6,6];
+
+const randomInex = Math.floor(Math.random()*arr.length)
+arr[randomIndex]
