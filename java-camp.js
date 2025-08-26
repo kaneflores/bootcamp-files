@@ -198,4 +198,10 @@ const obj1 = { prop1: 20};
 const obj2 = {prop2: 50};
 objt1 + obj2 = //type error
 //cant be possible
-
+try{
+    var num = 20;
+    num.toUpperCase();
+} catch (error) {
+    console.log(error instanceof TypeError)
+    console.log(error.message);
+}
