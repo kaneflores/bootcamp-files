@@ -222,3 +222,28 @@ function filter_list(l){
     nu
 }
 function arrayDif()
+
+//take a ten minute walk
+
+function isValidWalk(walk){
+    if (walk.length!== 10){
+        return false;
+        }
+    let nOffset = 0;
+    let wOffset = 0;
+    let sOffset = 0;
+    let eOffset = 0;
+
+    walk.forEach(direction =>{
+        switch (direction) {
+            case 'n':
+                nOffset +=1;
+                break;
+            case 'w':
+                /// continue
+
+
+        }
+    });
+    //
+}
